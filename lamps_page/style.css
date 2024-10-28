@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=ABeeZee:regular,italic);
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 312px;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    background-color: rgba(79, 191, 165, 1);
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 57px;
+}
+
+.logo {
+    width: 74px;
+    height: 74px;
+    margin-right: 856px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 85px;
+    gap: 100px;
+    padding: 0;
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+nav button {
+    width: 194px;
+    height: 42px;
+    padding: 10px 51px;
+    gap: 10px;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.28px;
+    background-color: #fff;
+    color: black;
+    border: 0;
+}
+
+p {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 21px;
+    color: white;
+}
+
+/* --------------------------------- */
+main {
+    width: 100%;
+    height: auto;
+    background-color: rgba(79, 191, 165, 1);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.textMain {
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.textMain button {
+    width: 158px;
+    height: 50px;
+    padding: 15px 25px;
+    background-color: rgba(0, 134, 138, 1);
+    border: 0;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.28px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.textMain p {
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    margin: 0 0 40px 0;
+}
+
+.textMain h1 {
+    font-family: ABeeZee;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 72px;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.imgMain img {
+    width: 746px;
+    height: 533px;
+    margin-left: 133px;
+}
+
+@media(max-width: 1200px) {
+    .container {
+        max-width: 888px;
+    }
+}
+
+@media(max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 588px;
+    }
+}
+
